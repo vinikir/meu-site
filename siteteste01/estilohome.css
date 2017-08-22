@@ -1,0 +1,147 @@
+﻿@charset "UTF-8";
+
+body{width:100%;}
+
+body{
+font-family: arial, helvetica, sans-serif;
+font-size: 12px;
+background:#c0c0c0;
+
+}
+
+#menu{
+font-family: 'Permanent Marker', cursive;
+list-style-type: none !important;
+float:none; 
+font-size:20px;
+z-index: 1;
+position: absolute;
+background-color : #111;
+background-image : linear-gradient ( #444 , #111 );
+border-radius: 12px;
+box-shadow: 6px;
+padding-top: 0px;
+padding-right: 90px;
+margin-left: -8px;
+}
+
+#menu li{
+position:relative;
+float:left; 
+list-style: none;
+margin-left: 100px;
+padding-right: 50px;
+
+}
+
+
+
+#menu li a {color:#333; text-decoration:none; padding:10px 10px; display:block;}
+
+#menu li a:hover{
+background-image : linear-gradient ( #444 , #111 );
+border-radius: 12px;
+color:#8B0000; 
+-moz-box-shadow:0 10px 30px 0 #8B0000; 
+-webkit-box-shadow:0 10px 30px 0 #8B0000;
+text-shadow:0px 0px 5px #8B0000;
+
+}
+
+#menu li  ul{
+
+position:absolute;
+
+display:none;
+
+padding-left: 10px;
+padding-right: 10px;
+}	
+
+#menu li:hover ul , #menu li#over ul { 
+	display:block;
+	background-image: linear-gradient ( #444 , #111 );
+    border-radius: 12px;
+   position: absolute;
+}
+
+#menu li ul li {
+	
+    position:relative;
+	margin-left: -18px;
+	background-image: linear-gradient ( #444 , #111 );
+    border-radius: 4px;
+    box-shadow: 3px;
+
+	
+	}
+
+
+#camisas {
+	margin-left:229px;
+	margin-top:170px;
+	position:absolute;
+	}
+
+#camisas tr td { 
+   border:5px groove #6C7B8B;
+   padding:6px;
+}
+
+#camisas td:hover {
+	     -moz-transform: scale(1.2);
+         -webkit-transform: scale(1.2);
+         -o-transform: scale(1.2);
+}
+
+#redes  {
+	font-size:20px;
+	font-family: 'Fredericka the Great', cursive;
+    color: #8B0000;
+	position:absolute;
+	border:5px groove #6C7B8B;
+	margin-top:172px;
+	margin-left:4px;
+	}
+#logos  { 
+      position:absolute;
+	  margin-left:4px;
+	  border:5px groove #6C7B8B;
+	  margin-top: 288px;
+
+	  
+}
+
+#banner {margin-left:-10px; margin-top: -10px; position: relative; }
+
+
+
+
+	
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   

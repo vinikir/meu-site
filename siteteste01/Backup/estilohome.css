@@ -1,0 +1,121 @@
+﻿
+
+body{
+font-family: arial, helvetica, sans-serif;
+font-size: 12px;
+background:#c0c0c0;
+list-style:none;
+}
+#menu ul {list-style-type:none;}
+#menu{
+list-style-type: none;
+float:none; 
+margin-top:10px;
+margin-left:100px;
+font-size:23px;
+
+}
+
+#menu li{
+position:relative; 
+float:left; 
+list-style: none;
+padding: 10px;
+}
+
+
+
+#menu li a{color:#333; text-decoration:none; padding:10px 10px; display:block;}
+
+#menu li a:hover{
+background:#333; 
+color:#fff; 
+-moz-box-shadow:0 10px 30px 0 #CCC; 
+-webkit-box-shadow:0 10px 30px 0 #CCC;
+text-shadow:10px 10px 5px #fff;
+}
+
+#menu li  ul{
+background:#c0c0c0;
+position:absolute;
+top:40px; 
+
+display:none;
+}	
+
+#menu li:hover ul , #menu li#over ul { display:block;}
+
+#menu li ul li {
+	display:block;
+	width:150px;
+    position:relative;
+
+
+	}
+#menu ul {list-style: none;}
+
+#camisas {
+	margin-left:229px;
+	margin-top:120px;
+	position:absolute;
+	}
+
+#camisas tr td { 
+   border:5px groove #6C7B8B;
+   padding:6px;
+}
+
+#camisas td:hover {
+	     -moz-transform: scale(1.2);
+         -webkit-transform: scale(1.2);
+         -o-transform: scale(1.2);
+}
+
+#redes  {
+	font-size:20px;
+	font-family: arial, helvetica, sans-serif;
+    color:#27408B ;
+	position:absolute;
+	border:5px groove #6C7B8B;
+	margin-top:122px;
+	margin-left:4px;
+	}
+#logos  { 
+      position:absolute;
+	  margin-left:4px;
+	  border:5px groove #6C7B8B;
+	  margin-top:230px;
+	  
+}
+
+
+
+
+	
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
